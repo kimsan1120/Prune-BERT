@@ -1,0 +1,13 @@
+{
+    "model_path": "prajjwal1/bert-small",
+    "task_name": "sst2",
+    "output_dir": "./finetuned_model",
+    "num_epochs": 3,
+    "batch_size": 64,
+    "learning_rate": 2e-5,
+    "optimizer": {
+        "type": "AdamW",
+        "lr": 2e-5,
+        "weight_decay": 0.01
+    }
+}
